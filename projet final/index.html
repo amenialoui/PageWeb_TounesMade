@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tailwind.config.js">
+    <title>Document</title>
+</head>
+<body>
+    <section class="page-acceuil">
+        <div class="nav-bar1">
+            <nav class="nav1">
+                <div> <img src="" alt=""> logo</div>
+                <div class="recherche">
+                    <form action="" class="rech-form">
+                        <input type="text" placeholder="Rechercher...">
+                        <button class="recherche-btn" type="submit"> <img src="search.png" alt=""></button>
+                    </form>
+                </div>
+                <div>
+                    <a href=""> <img src="" alt=""> he</a>
+                    <a href=""><img src="" alt=""> mar</a>
+                    <a href=""><img src="" alt=""> site</a>
+                </div>
+            </nav>
+        </div>
+        <div class="nav-bar2">
+            <nav class="nav2">
+                <div class="contenu-nav2">
+                    <a href="">Bijoux et accessoires</a>
+                    <a href="">Vetements</a>
+                    <a href="">Produits du terroir</a>
+                    <a href="">Maison et decoration</a>
+                    <a href="">Art de la table</a>
+                    <a href="">A propos</a>
+                </div>
+                
+                <div><button>CONTACT US</button></div>
+            </nav>
+        </div>
+
+        <div class="page1">
+
+        </div>
+    </section>
+    <section class="popular-prod">
+        <div class="titre-produits">
+            <h2>Meilleurs ventes</h2>
+            <h4>Shop all products</h4>
+        </div>
+        <div class="prod">
+            <div class="grand-item1" >
+                <img src="bag.jpg" alt="">
+                <div class="item1 item">
+                    <p>kfdghj</p>
+                </div>
+            </div>
+            <div class="grand-item2">
+                <img src="barcelet.jpg" alt="">
+                <div class="item2 item">
+                    <p>kfdghj</p>
+                </div>
+            </div>
+            <div class="grand-item3">
+                <img src="chahia.jpg" alt="">
+                <div class="item3 item">
+                    <p>kfdghj</p>
+                </div>
+            </div>
+            <div class="grand-item4">
+                <img src="ma3ounn.jpg" alt="">
+                <div class="item4 item">
+                    <p>kfdghj</p>
+                </div>
+            </div>
+            <div class="grand-item5">
+                <img src="pot2.jpg" alt="">
+                <div class="item5 item">
+                    <p>kfdghj</p>
+                </div> 
+            </div>
+            <div class="grand-item6">
+                <img src="pot.jpg" alt="">
+                <div class="item6 item">
+                    <p>kfdghj</p>
+                </div>
+            </div>
+            <div class="grand-item7">
+                <img src="bijoux2.jpg" alt="">
+                <div class="item7 item">
+                    <p>kfdghj</p>
+                </div>
+            </div>
+            <div class="grand-item8">
+                <img src="boucles2.jpg" alt="">
+                <div class="item8 item">
+                    <p>kfdghj</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reduction">
+        <h1> up tp 50% off ... miniteur</h1>
+        <button>Explore More</button>
+    </section>
+
+    <section class="categories-prod">
+        <div class="ligne-elemt">
+            <div class="box">
+                <img src="chaise.jpg" alt="">
+                <div class="overlay">
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="bijoux.jpg" alt="">
+                <div class="overlay">
+                    <a href="#" class="buy-btn">Buy Now</a>     
+                </div>
+            </div>
+            <div class="box">
+                <img src="boucles.jpg" alt="">
+                <div class="overlay">
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="barcelet.jpg" alt="">
+                <div class="overlay">
+                    <a href="#" class="buy-btn">Buy Now</a>  
+                </div>
+            </div>
+            <div class="box">
+                <img src="pot2.jpg" alt="">
+                <div class="overlay">
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </section>
+    <section class="a-propos">
+        <h1>a propos</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Optio cumque quae deserunt aliquid iusto dolorum ab
+            tempore autem, assumenda voluptate repellendus enim quas 
+            dolore quidem ipsa vel nesciunt voluptatibus nisi.</p>
+    </section>
+    
+    <section class="artisan-page">
+        <div class="scroller">
+            <img src="fleche-droite.png" id="back-btn">
+            <div class="artisan">
+            <div>
+                <img src="sabat.jpg" alt="">
+                <img src="chaise.jpg" alt="">
+                <img src="s7an bijoux.jpg" alt="">
+            </div>
+            <div>
+                <img src="pot3.jpg" alt="">
+                <img src="boucles2.jpg" alt="">
+                <img src="ma3oun.jpg" alt="">
+            </div>
+        </div>
+            <img src="fleche-droite.png" id="next-btn">
+        </div>
+<script>
+    let gallary = document.querySelector(".artisan");
+    let backBtn = document.getElementById("back-btn");
+    let nextBtn = document.getElementById("next-btn");
+
+    // gallary.addEventListener('wheel',(evt)=> {
+    //     evt.preventDefault()
+    //     gallary.scrollLeft +=evt.deltaY
+    // })
+    nextBtn.addEventListener('click', scrollNext);
+    backBtn.addEventListener('click', scrollPrev);
+
+    function scrollNext() {
+
+    gallary.scrollLeft += 300; // ajuster la valeur
+}
+
+    function scrollPrev() {
+
+    gallary.scrollLeft -= 300;
+}
+</script>
+    </section>
+    <section class="news-letter">
+        <h1>newsletter</h1>
+        <form action="" class="form-email">
+            <input type="email" placeholder="Votre adresse email" >
+            <button>S'ABONNER</button>
+        </form>
+    </section>
+    <section class="pied-page">
+        <div class="container-footer">
+            <div class="row">
+              <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                  <li><a href="#">about us</a></li>
+                  <li><a href="#">our services</a></li>
+                  <li><a href="#">privacy policy</a></li>
+                  <li><a href="#">affiliate program</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">shipping</a></li>
+                  <li><a href="#">returns</a></li>
+                  <li><a href="#">order status</a></li>
+                  <li><a href="#">payment options</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                  <li><a href="#">watch</a></li>
+                  <li><a href="#">bag</a></li>
+                  <li><a href="#">shoes</a></li>
+                  <li><a href="#">dress</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+           </div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{ padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(#469be6, #c991e5)
+}
+div{
+    background-color:white;
+    width: 60%;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+img{
+    width: 50%;
+}
+#tex1{
+    color: green;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Roboto;
+
+}
+#text2{
+    font-size: 50%;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bolder;
+
+}
+

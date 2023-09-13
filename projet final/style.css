@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page1{
+    height: 87vh;
+    width: 100%;
+    background-color: rgb(0, 255, 68);
+}
+.nav-bar1{
+
+    height: 7vh;
+    background-color: rgb(170, 0, 255);
+    padding: 5px 20px;
+}
+.rech-form{
+    width: 400px;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 60px;
+    padding: 10px 6px;
+}
+.rech-form input{
+
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+::placeholder{
+    color: #cac7ff;
+    font-size: 15px;
+}
+.rech-form button img{
+    width: 18px;
+    
+}
+.rech-form button {
+    border: 0;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.nav1, .nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar2{
+    height: 6vh;
+    width: 100%;
+    background-color: blanchedalmond;
+
+}
+.contenu-nav2{
+   display: flex;
+    gap:30px;
+    padding: 10px 20px;
+    
+}
+.contenu-nav2 a{
+    text-decoration: none;
+}
+/*section2 */
+.popular-prod{
+    height: 130vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+.prod{
+    background-color: #cac7ff;
+    display:grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 5px 35px;                       /* ****** */
+    height: 100%;
+    width: 100%;
+    padding: 90px;
+
+}
+
+.grand-item1{
+    background-color: blue;
+    grid-column: 1/2;
+    height: 250px; 
+}
+.grand-item2{
+    background-color: aquamarine;
+    grid-column: 2/3;
+}
+.grand-item3{
+    background-color: rgb(255, 213, 0);
+    grid-column: 3/4;
+}
+.grand-item4{
+    background-color: rgb(0, 123, 255);
+     grid-column: 4/5; 
+}
+.grand-item5{
+    background-color: rgb(0, 255, 140);
+     grid-column: 1/2;
+    grid-row: 2/3; 
+    height: 250px;
+}
+.grand-item6{
+    background-color: rgb(255, 136, 0);
+    grid-column: 2/3;
+    grid-row: 2/3; 
+}
+.grand-item7{
+    background-color: rgb(255, 0, 68);
+     grid-column: 3/4;
+    grid-row: 2/3; 
+}
+.grand-item8{
+    background-color: rgb(226, 146, 237);
+     grid-column: 4/5;
+    grid-row: 2/3; 
+}
+.prod img{
+    height: 200px;
+    width: 100%;
+}
+
+.titre-produits{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+.reduction{
+    height: 30vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+.categories-prod{
+    height: 100vh;
+    width: 100%;
+    background-color:darkred;
+}
+/**********page 4*************/
+.categories-prod{
+    padding: 20px 100px;
+}
+
+.box{
+    width: 300px;
+    height: auto;
+    position: relative;
+    background-color: #276c71;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px rgba(3, 18, 35, 0.274);
+    overflow: hidden;
+}
+/* .box {
+    flex: 0 0 300px;
+  } */
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: #9590e8;
+    opacity: 0.6;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.buy-btn{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px #00000034;
+    z-index: 0;
+}
+
+.buy-btn:hover{
+    color: #f81726;
+    background-color: green;
+}
+.overlay{
+    visibility: hidden;
+}
+.box:hover .overlay{
+    visibility: visible;
+}
+
+.ligne-elemt {
+    display: flex;
+    overflow-x: auto;
+
+}
+.news-letter{
+    background-color: #9590e8;
+    height: 50vh;
+    width: 100%;
+}
+.form-email{
+    display: flex;
+    justify-content: center;
+}
+.a-propos{
+    height: 60vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+/**************footer********/
+/* .pied-page{
+
+}
+.container-footer{
+  max-width: 1170px;
+  margin:auto;
+} */
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.pied-page{
+  background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+
+
+/*responsive footer*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+/*artsans*/
+.artisan{
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+    overflow: hidden;
+}
+.artisan div{
+    background-color: #276c71;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 30px 20px;
+    flex: none;
+}
+.artisan div img{
+    width: 100%;
+    transition: 0.5s;
+}
+.artisan img{
+    width: 300px;
+    height: 350px;
+}
+.artisan ::-webkit-scrollbar{
+    display: none;
+}
+.scroller{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+#back-btn,#next-btn{
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.artisan div img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+

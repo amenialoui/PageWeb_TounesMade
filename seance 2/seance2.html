@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+ 
+    <title>seance2</title>
+    <meta name="keywords" content="form, html, registration, user">
+    <meta name="description" content="notre site web contient un formulaire pour s'insrire a la platefore">
+    <meta name="autor" content="ameni">
+    <link rel="stylesheet" href="style.css">
+    <!-- c est quoi la relatio entre les deux: stylesheet -->
+
+</head>
+<body>
+    <h1 >Testing forms</h1>
+    <h1 class="inligne">test test</h1>
+    <a class="atags" href="https://.facebook.com" target="_blank">facebook</a>
+    <a class="atags" href="https://.google.com" target="_blank">google</a>
+    <a class="atags" href="https://.instagram.com" target="_blank">instagram</a>
+    <!--point virgule pour quelle se termine-->
+    <div class="container">
+        <h2 id="heading2">this is a registration form for fianacial aid</h2>
+        <h3>please write your info correctly</h3>
+        <p>oooo</p>
+    </div>
+    <!-- div non semantique -->
+    <div class="divid">
+        <h3>this is a title</h3>
+        <div>
+            <ul>
+                <li>hgfgh</li>
+                <li>gfdcm</li>
+            </ul>
+        </div>
+
+    </div>
+    
+    <form action="thanks.html">
+        <!-- FOR ( avec for=id) EST UTILISE POUR QUE SI ON SELECTIONNE EMAIL ELLE NOUS APORTE DIRECTENT VERS LA ZONE POUR ECRIRE L ADRESSE -->
+        <label style="color: red;" for="nom">Nom*</label>
+        <input class="inptform" id="nom" type="text" placeholder="Entrer votre nom" required >
+        <br>
+        <br>
+        <label style="color: red;" for="prenom">Prenom*</label>
+        <input class="inptform" id="prenom" type="text" placeholder="Entrer votre prenom" required>
+        <br>
+        <br>
+        <label id="usernameid" for="username">Username*</label>
+        <input class="inptform" id="username" type="text" placeholder="Entrer votre username" required>
+        <br>
+        <br>
+        <label for="Email">Email*</label>
+        <input class="inptform" type="email"  id="Email" placeholder="Entrer votre adresse Email" required>
+        <br>
+        <br>
+        <label for="password">Password*</label>
+        <input class="inptform" type="password" id="password"  placeholder="Entrer votre password" required>
+
+        <label for="confirmedp">Confirmer votre mot de passe*</label>
+        <input class="inptform" type="password" id="confirmedp" placeholder="confirmer votre mot de passe"required>
+        <br>
+        <br>
+        <input type="radio" name="gender" value="H">Homme
+        <br>
+        <input type="radio" name="gender" value="F">Femme
+        <br>
+        <input type="radio" name="gender" value="A">Autre
+        <br>
+        <h5>Select your age</h5>
+        <select id="age">
+            <option value="15-20">>15-20</option>></option>
+            <option value="21-40">>21-40</option>></option>
+            <option value=">40">>40</option>></option>
+        </select>
+        <br>
+        <br>
+        <label for="textarea"> Write your review</label>
+        <br>
+        <br>
+        <select>
+            
+            <textarea name="review" id="textarea" cols="50" rows="10"></textarea>
+        </select>
+        <button type="submit">submit</button>
+
+
+        <!-- internal 
+        <style>
+            h1{
+                background-color: black;
+                color: white;
+                font-size: 80px;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            input{
+                width: 200px;
+                height: 40px;
+            }
+
+            label{
+                font-size: 20px;
+                font-weight: 700;
+                color: red;
+            }
+            
+        </style>-->
+        
+        
+
+
+
+    </form>
+    <p>oooo</p>
+
+    
+</body>
+</html>

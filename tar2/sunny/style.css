@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(198, 142, 142);
+    color: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+}
+nav{
+    height: 30px;
+    width: 100%;
+    background-color: #3EBEFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+.navbar{
+    font-size: 15px;
+    word-spacing: 10px;
+    color:black;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: blue;
+}
+.navbar .btn{
+    cursor: pointer;
+}
+.navbar .btn:hover{
+    background-color: blue;
+}
+
+.contenu-page1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 80px;
+    font-size: 30px;
+}
+.page2{
+    background-color: aquamarine;
+    height: 200vh;
+    width: 100%;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+}
+.page3{
+    background-color: beige;
+    height: 70vh;
+    width: 100%;
+}
+.page4{
+    background-color:orange;
+    height: 50vh;
+    width: 100%;
+}
+.footer{
+    background-color: gray;
+    height: 50%;
+    width: 100%;
+}
+
+.item1{
+    background-color: blue;
+    grid-column: 1/2;
+}
+.item2{
+    background-image: url(image-transform.jpg);
+    grid-column: 2/3;
+}
+.item3{
+    background-color: rgb(255, 213, 0);
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.item4{
+    background-color: rgb(0, 123, 255);
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.item5{
+    background-color: rgb(0, 255, 140);
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.item6{
+    background-color: rgb(255, 213, 0);
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+
+
+
+

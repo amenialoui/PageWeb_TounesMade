@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <h1 id="title">hello</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deserunt labore minima nam voluptates fuga itaque beatae aperiam a minus animi at veritatis repellendus, perferendis cum error illo. Aliquam, minima!</p>
+    <div class="container">
+        <div class="item item1">item1</div>
+        <div class="item item2">item2</div>
+        <div class="item item3">item3</div>
+    </div>
+    <script>
+        function add() {
+        //selecting the container
+        let container=document.querySelectorAll(".container");
+        console.log(container)
+        //creating the div element
+        let element=document.createElement('div');
+        console.log(element)
+        //adding the text to the div
+        element.innerText=window.prompt('enter your text here');
+        //appending the ne div to the container
+        container.appendChild(element);
+        console.log(conatiner)
+    }
+    </script>
+
+    <button id="btn" onclick="add()">click me</button>
+    
+</body>
+</html>

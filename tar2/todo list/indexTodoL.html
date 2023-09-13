@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleTodoL.css">
+    <script src="scriptTodoL.js" defer></script>
+    <title>TODO LIST</title>
+</head>
+<body>
+    <div class="container">
+        <div class="">
+            <h1>What are you going to plan ? </h1>
+        </div>
+        <div class="add">
+            <button class="btn" type="button" onclick="openpopup()">+</button>
+            <p for="" style="font-size: 20px;">Add new</p>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <h2>Add a new todo</h2>
+        <form id="new-item-form" class="form-container">
+            <label for="">Enter your todo title</label>
+                    <br>
+                    <input name="task" id="input" type="text">
+                    <br>
+                    <label for="">Enter your todo Description</label>
+                    <br>
+                    <input class="inputField" type="text">
+                    <br>
+                    <label for="">Enter your todo DeadLine</label>
+                    <br>
+                    <input type="text">
+                    <br>
+                    <button type="submit" class="submit-btn" onclick="closepopup()">Add and Save</button>
+                </form>
+
+    </div>
+    <div id="items">
+
+    </div>
+    
+</body>
+</html>

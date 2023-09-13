@@ -1,0 +1,149 @@
+
+/* flex box part*/
+
+    /*display:inline-block; /* pour rendre inline en block mais dans le meme ligne*/
+    /*display: block;/* pour rendre lelt inline en block pour pouvoir manupiler margin...*/
+/*
+.container{
+    background-color: rgb(215, 52, 79);
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;  *//*ma yfoutech 3orth au lieu d ecrire wideth manuellemnt *//*
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: space-evenly;*/ /* en cas ro testwi 3al row et en cas de clolumns testwi 3al clo*//*
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    gap: 20px;
+
+}
+
+.items{
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 9px;
+    margin: 2px;
+}
+.item1{
+    background-color: aqua;
+    align-self: flex-start;
+}
+.item2{
+    background-color: blueviolet;
+}
+.item3{
+    background-color: aquamarine;
+}
+.item4{
+    background-color: beige;
+}
+.item5{
+    background-color: olive;
+}
+
+.logo{
+    background-color: blueviolet;
+}
+
+.menu{
+    background-color: rgb(0, 255, 115);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.mavbar{
+    padding: 10px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: flex-start;
+}
+a{
+    background-color: blanchedalmond;
+}
+  */
+
+/*grid part*/
+/*
+.container{
+    background-color: rgb(215, 52, 79);
+    display: grid;
+    flex-wrap: wrap;  
+    border: 2px solid black;
+    border-radius: 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    height: 100vh;
+}
+.items{
+
+    border: 2px solid black;
+    border-radius: 9px;
+    margin: 2px;
+}
+.item1{
+    background-color: aqua;
+    grid-column: 1/4;
+}
+.item2{
+    background-color: rgb(153, 0, 255);
+    grid-row: 2/4;
+}
+.item3{
+    background-color: rgb(108, 21, 35);
+    grid-column: 2/4;
+}
+.item4{
+    background-color: rgb(89, 255, 0);
+    grid-column: 2/4;
+}
+.item5{
+    background-color: rgb(174, 0, 255);
+    grid-column: 1/4;
+}
+*/
+.container{
+    background-color: rgb(215, 52, 79);
+    display: grid; 
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "item1 item1 item1"
+    "item2 item3 item3"
+   "item2 item4 item4"
+    "item5 item5 item5 ";
+}
+.items{
+
+    border: 2px solid black;
+    border-radius: 9px;
+    margin: 2px;
+}
+.item1{
+    background-color: aqua;
+    grid-area: item1;
+}
+.item2{
+    background-color: rgb(153, 0, 255);
+    grid-area: item2;
+}
+.item3{
+    background-color: rgb(108, 21, 35);
+    grid-area: item3;
+}
+.item4{
+    background-color: rgb(89, 255, 0);
+    grid-area: item4;
+}
+.item5{
+    background-color: rgb(174, 0, 255);
+    grid-area: item5;
+    justify-content: ;
+}

@@ -1,0 +1,49 @@
+camel case writing myNameIs
+attributs <img src="" alt="">
+alt shift fleche fou9
+balise
+selctionner d - cntrol+d
+elements inligne( a) et des elemenst inblock image/paragraphe
+ctrl+espace pour voir les options 
+place holder
+alT+l+o LANCER directment html
+
+
+css
+external(fichier css)
+internal
+inline
+
+
+andromeda
+theme
+eyedropper
+
+
+freecode camp
+w3school
+
+cmd: cd (change directory)
+cd desktop
+code .
+ 
+
+span
+css variables
+
+front end mentor des challenges 
+front end practice
+
+
+
+inline 
+bloc
+
+svg
+
+
+
+
+
+
+

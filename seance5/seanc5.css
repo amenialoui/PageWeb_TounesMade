@@ -1,0 +1,92 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.part1{
+    background-color: pink;
+    height: 100vh;
+    width: 100%;
+
+}
+.part2{
+    background-color: rgb(226, 192, 255);
+    height: 100vh;
+    width: 100%;
+}
+.part3{
+    background-color: rgb(172, 23, 48);
+    height: 100vh;
+    width: 100%;
+}
+.part4{
+    background-color: rgb(249, 255, 192);
+    height: 100vh;
+    width: 100%;
+}
+.part5{
+    background-color: rgb(209, 255, 192);
+    height: 100vh;
+    width: 100%;
+}
+.part6{
+    background-color: rgb(192, 234, 255);
+    height: 100vh;
+    width: 100%;
+}
+.part7{
+    background-color: rgb(213, 192, 255);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+}
+.navbar{
+    background-color: blue;
+    width: 100%;
+    height: 10vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 40; /* ywalli houa m9adem en front*/
+    opacity: 0.6;
+
+}
+.fouter{
+    background-color: grey;
+height: 50%;
+padding: 100%;
+}
+.test{
+    width: 100%;
+    background-color: rgb(197, 95, 95);
+    height: 80%;
+    padding: 10px;
+    padding-top: 70px;
+
+}
+.item{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border: 3px solid red;
+}
+.item1{
+    background-color: aquamarine;
+    position: absolute;
+    right: 30%;
+    top: 10%;
+    z-index: 1;
+}
+.item2{
+    background-color: bisque;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 30%;
+    border-radius: 50%;
+    top: 30%;
+}
+
