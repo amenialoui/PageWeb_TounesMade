@@ -1,0 +1,95 @@
+/* formulaire*/
+body{
+    background-color: #3d2e2b;
+}
+.signup-form {
+    width: 60%;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background-color: #F1EEE7;
+  }
+  .entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .entry img{
+    width: 30%;
+    height: 30%;
+  }
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  } 
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  .login-link {
+    text-align: center;
+    margin-top: 20px; 
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  /*login*/
+
+  .login-form {
+    width: 50%;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background-color: #F1EEE7;
+  }
+
+  .input-group {
+    margin-bottom: 20px; 
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    width: 100%; 
+    padding: 10px;
+    background-color: #543629;
+    border: none;
+    border-radius: 4px;
+    color: white; 
+  }

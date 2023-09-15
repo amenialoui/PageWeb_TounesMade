@@ -5,13 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tailwind.config.js">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/user.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css' rel='stylesheet'>
+    <script src="script.js"></script>
+
     <title>Document</title>
 </head>
 <body>
     <section class="page-acceuil">
-        <div class="nav-bar1">
-            <nav class="nav1">
-                <div> <img src="" alt=""> logo</div>
+        <nav class="nav">
+            <div class="logo">
+                <img src="logof.png" alt="" class="icone-imag">
+                <div class="nav-items">
+                    <div class="search">
+                        <form action="" class="rech-form">
+                            <input type="text" placeholder="Rechercher...">
+                            <button class="recherche-btn" type="submit"> <img src="search.png" alt=""></button>
+                        </form>
+                    </div>
+                    
+    
+                </div> 
+                <div class="icones">
+                    <a href="index-form.html" ><i class="gg-user"></i></a>
+                    <a href=""><i class="gg-shopping-cart"></i></a>
+                </div>
+                
+            </div>
+            <ul class="links-container">
+                <li class="link-item"><a href="#" class="link">Home</a></li>
+                <li class="link-item"><a href="#" class="link">Bijoux et accessoires</a></li>
+                <li class="link-item"><a href="#" class="link">Produits du terroir</a></li>
+                <li class="link-item"><a href="#" class="link">Maison et decoration</a></li>
+                <li class="link-item"><a href="#" class="link">Art de la table</a></li>
+                <li class="link-item"><a href="#" class="link">A propos</a></li>
+
+            </ul>
+            
+
+
+            <!-- <nav class="nav1">
                 <div class="recherche">
                     <form action="" class="rech-form">
                         <input type="text" placeholder="Rechercher...">
@@ -25,7 +58,7 @@
                 </div>
             </nav>
         </div>
-        <div class="nav-bar2">
+         <div class="nav-bar2">
             <nav class="nav2">
                 <div class="contenu-nav2">
                     <a href="">Bijoux et accessoires</a>
@@ -38,20 +71,132 @@
                 
                 <div><button>CONTACT US</button></div>
             </nav>
-        </div>
+        </div>  -->
+        </nav>
 
         <div class="page1">
-
+            <h2>Découvrez l'Artisanat Tunisien Authentique</h2>
+            <br>
+            <h3>Explorez nos différentes collections, allant des poteries artisanales aux bijoux en argent en passant par les tapis tissés à la main. Chaque pièce raconte une histoire et reflète la richesse culturelle de la Tunisie.</h3>
         </div>
     </section>
-    <section class="popular-prod">
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">- 10%</span>
+                <img src="pot.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Ajouter aux favoris</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">pot</h2>
+                <p class="product-short-des">Fabriqué à la main en quantité limitée, chaque pièce est unique.</p>
+                <span class="price">27 TND</span><span class="actual-price">30 TND</span>
+            </div>
+            
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">- 15%</span>
+                <img src="s7an bijoux.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Ajouter aux favoris</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">porte bijoux</h2>
+                <p class="product-short-des">Pièce unique réalisée avec passion dans notre atelier, ce porte-bijoux est le moyen idéal d'exposer vos bijoux favoris.</p>
+                <span class="price">17 TND</span><span class="actual-price">20 TND</span>
+            </div>
+            
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">- 20%</span>
+                <img src="vase2.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Ajouter aux favoris</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">vase</h2>
+                <p class="product-short-des">Un splendide vase en céramique façonné à la main par nos artisans locaux selon des techniques ancestrales.</p>
+                <span class="price">40 TND</span><span class="actual-price">50 TND</span>
+            </div>
+            
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">- 25%</span>
+                <img src="bag.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Ajouter aux favoris</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">sac en cuire</h2>
+                <p class="product-short-des">Avec son cuir souple et ses surpiqûres faites main, ce sac en cuir vous accompagnera avec style en toutes circonstances.</p>
+                <span class="price">75 TND</span><span class="actual-price">100 TND</span>
+            </div>
+            
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">- 10%</span>
+                <img src="boucles.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Ajouter aux favoris</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">boucles</h2>
+                <p class="product-short-des">Ornées de pierres semi-précieuses, ces boucles d'oreilles en argent reflètent le savoir-faire ancestral des bijoutiers de Tunis.</p>
+                <span class="price">36 TND</span><span class="actual-price">40 TND</span>
+            </div>
+            
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">- 12%</span>
+                <img src="zhar.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Ajouter aux favoris</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">eau de jasmin</h2>
+                <p class="product-short-des">a short line about the cloth..</p>
+                <span class="price">35.2 TND</span><span class="actual-price">40 TND</span>
+            </div>
+            
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">- 12%</span>
+                <img src="chaise.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Ajouter aux favoris</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">chaise enfant</h2>
+                <p class="product-short-des">Fabriquée à base de jasmin fraichement cueilli, cette eau florale diffuse des notes envoûtantes.</p>
+                <span class="price">44 TND</span><span class="actual-price">50 TND</span>
+            </div>
+            
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">- 12%</span>
+                <img src="sabar.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Ajouter aux favoris</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">porte bague</h2>
+                <p class="product-short-des">Avec sa forme de cactus stylisé, ce porte-bagues apportera une touche de caractère à votre décoration. Fabriqué en céramique par nos artisans.</p>
+                <span class="price">17.6 TND</span><span class="actual-price">20 TND</span>
+            </div>
+            
+        </div>
+        
+    </div>
+    <!-- <section class="popular-prod">
         <div class="titre-produits">
             <h2>Meilleurs ventes</h2>
             <h4>Shop all products</h4>
         </div>
         <div class="prod">
             <div class="grand-item1" >
+                <span class="discount-tag">50% off</span>
                 <img src="bag.jpg" alt="">
+                <button class="card-btn">Add to wishList</button>
                 <div class="item1 item">
                     <p>kfdghj</p>
                 </div>
@@ -99,74 +244,115 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="reduction">
-        <h1> up tp 50% off ... miniteur</h1>
-        <button>Explore More</button>
+        <div class="offer">
+            <h2>Jusqu'à 50 % de réduction ! Offre limitée !</h2>
+        </div>
+        <div class="countdown">
+              <div>
+                <span id="days">00</span>
+                <span>jours</span>
+              </div>
+            
+              <div>
+                <span id="hours">00</span>
+                <span>heures</span>
+              </div>
+            
+              <div>
+                <span id="minutes">00</span>
+                <span>minutes</span>
+              </div>
+            
+              <div>
+                <span id="seconds">00</span>
+                <span>secondes</span>
+              </div>
+            </div>
+          <button>En savoir plus</button>
     </section>
 
     <section class="categories-prod">
         <div class="ligne-elemt">
             <div class="box">
-                <img src="chaise.jpg" alt="">
+                <img src="afc0ff3c62f9cd11ac5bfd073dfc93c5.jpg" alt="">
+                <h1 class="type-produit">Produits Du Terroire</h1>
+                <a href="#" class="buy-btn">Voir plus</a>
                 <div class="overlay">
-                    <a href="#" class="buy-btn">Buy Now</a>
+                </div>
+
+            </div>
+            <div class="box">
+                <img src="dec.jpg" alt="">
+                <h1 class="type-produit">Maison et Decoration</h1>
+                <a href="#" class="buy-btn">Voir plus</a>
+                <div class="overlay">
+                         
                 </div>
             </div>
             <div class="box">
-                <img src="bijoux.jpg" alt="">
+                <img src="bij.jpg" alt="">
+                <h1 class="type-produit">Bijoux et Accessoires</h1>
+                <a href="#" class="buy-btn">Voir plus</a>
                 <div class="overlay">
-                    <a href="#" class="buy-btn">Buy Now</a>     
+                    
                 </div>
             </div>
             <div class="box">
-                <img src="boucles.jpg" alt="">
+                <img src="table.jpg" alt="">
+                <h1 class="type-produit">Art de la table</h1>
+                <a href="#" class="buy-btn">Voir plus</a> 
                 <div class="overlay">
-                    <a href="#" class="buy-btn">Buy Now</a>
+                     
                 </div>
             </div>
-            <div class="box">
-                <img src="barcelet.jpg" alt="">
-                <div class="overlay">
-                    <a href="#" class="buy-btn">Buy Now</a>  
-                </div>
-            </div>
-            <div class="box">
-                <img src="pot2.jpg" alt="">
-                <div class="overlay">
-                    <a href="#" class="buy-btn">Buy Now</a>
-                </div>
-            </div>
+            
         </div>
         
         
         
     </section>
-    <section class="a-propos">
-        <h1>a propos</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Optio cumque quae deserunt aliquid iusto dolorum ab
-            tempore autem, assumenda voluptate repellendus enim quas 
-            dolore quidem ipsa vel nesciunt voluptatibus nisi.</p>
+    <section class="about">
+        <div> <img src="cruche-inachevee.jpg" alt=""></div>
+            <div class="about-content">
+              <h3>À propos de nous</h3>
+              <p>
+                Bienvenue sur notre boutique en ligne dédiée à l'artisanat tunisien! 
+                Nous sommes fiers de présenter une sélection unique de poteries, bijoux et autres produits fabriqués à la main par des artisans locaux talentueux.
+              </p>
+          
+              <p>
+                Notre mission est de préserver l'héritage culturel de la Tunisie et soutenir les communautés d'artisans. Chaque pièce que nous proposons est le fruit d'un savoir-faire ancestral, transmis de génération en génération. 
+              </p>
+            </div>
     </section>
+
     
     <section class="artisan-page">
         <div class="scroller">
-            <img src="fleche-droite.png" id="back-btn">
+
+            <img src="circle-chevron-left-solid.svg" id="back-btn">
             <div class="artisan">
             <div>
-                <img src="sabat.jpg" alt="">
-                <img src="chaise.jpg" alt="">
-                <img src="s7an bijoux.jpg" alt="">
+                <div>
+                    <img src="sabat.jpg" alt="">
+
+                </div>
+                <div><img src="chaise.jpg" alt=""></div>
+                <div><img src="s7an bijoux.jpg" alt=""></div>
+                
             </div>
             <div>
-                <img src="pot3.jpg" alt="">
-                <img src="boucles2.jpg" alt="">
-                <img src="ma3oun.jpg" alt="">
+                <div><img src="pot3.jpg" alt=""></div>
+                <div><img src="boucles2.jpg" alt=""></div>
+                <div><img src="ma3oun.jpg" alt=""></div>
+                
             </div>
+            <div><button class="backg">voir plus</button></div>
         </div>
-            <img src="fleche-droite.png" id="next-btn">
+            <img src="circle-chevron-right-solid.svg" id="next-btn">
         </div>
 <script>
     let gallary = document.querySelector(".artisan");
@@ -190,47 +376,55 @@
     gallary.scrollLeft -= 300;
 }
 </script>
-    </section>
-    <section class="news-letter">
-        <h1>newsletter</h1>
-        <form action="" class="form-email">
-            <input type="email" placeholder="Votre adresse email" >
-            <button>S'ABONNER</button>
-        </form>
+<section class="home-newsletter">
+    <div class="container-n">
+    <div class="row">
+    <div >
+        <div class="single">
+            <h2>S'inscrire a notre newsletter</h2>
+        <div class="input-group">
+             <input type="email" class="form-control" placeholder="entrer votre email">
+             <span class="input-group-btn">
+             <button class="btn btn-theme" type="submit">s'inscrire</button>
+             </span>
+              </div>
+        </div>
+    </div>
+    </div>
+    </div>
     </section>
     <section class="pied-page">
         <div class="container-footer">
             <div class="row">
               <div class="footer-col">
-                <h4>company</h4>
+                <h4>tounes made</h4>
                 <ul>
-                  <li><a href="#">about us</a></li>
-                  <li><a href="#">our services</a></li>
+                  <li><a href="#">A propos</a></li>
+                  <li><a href="#">Nos produits</a></li>
                   <li><a href="#">privacy policy</a></li>
                   <li><a href="#">affiliate program</a></li>
                 </ul>
               </div>
               <div class="footer-col">
-                <h4>get help</h4>
+                <h4>Obtenir de l'aide</h4>
                 <ul>
                   <li><a href="#">FAQ</a></li>
-                  <li><a href="#">shipping</a></li>
-                  <li><a href="#">returns</a></li>
-                  <li><a href="#">order status</a></li>
-                  <li><a href="#">payment options</a></li>
+                  <li><a href="#">livraison</a></li>
+                  <li><a href="#">retour</a></li>
+                  <li><a href="#">options de payement</a></li>
                 </ul>
               </div>
               <div class="footer-col">
-                <h4>online shop</h4>
+                <h4>Magasin en ligne</h4>
                 <ul>
-                  <li><a href="#">watch</a></li>
-                  <li><a href="#">bag</a></li>
-                  <li><a href="#">shoes</a></li>
-                  <li><a href="#">dress</a></li>
+                  <li><a href="#">decoration et maison</a></li>
+                  <li><a href="#">Bijoux et accessoires</a></li>
+                  <li><a href="#">Produits du terroires</a></li>
+                  <li><a href="#">Art de la table</a></li>
                 </ul>
               </div>
               <div class="footer-col">
-                <h4>follow us</h4>
+                <h4>Suivez nous</h4>
                 <div class="social-links">
                   <a href="#"><i class="fab fa-facebook-f"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
