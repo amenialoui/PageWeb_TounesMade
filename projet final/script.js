@@ -28,3 +28,10 @@ let x = setInterval(function() {
     document.getElementById("countdown").innerHTML = "OFFER EXPIRED";
   }
 }, 1000);
+
+
+const burgerMenu = document.querySelector('.burger-menu');
+
+burgerMenu.addEventListener('click', () => {
+  document.body.classList.toggle('open');
+});
